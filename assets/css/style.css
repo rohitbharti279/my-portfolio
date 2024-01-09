@@ -56,10 +56,6 @@ body {
   color: #0077b5;
 }
 
-.angellist {
-  color: grey;
-}
-
 .icon-btn:hover {
   transform: scale(1.10);
   color: #FFFFFF;
@@ -67,10 +63,6 @@ body {
 
 .linkedin:hover {
   background-color: #0077b5;
-}
-
-.angellist:hover {
-  background-color: grey;
 }
 
 .github:hover {
@@ -124,25 +116,14 @@ a {
   color: #004d40;
 }
 
-blockquote {
-  border-left: 5px solid #795548;
-  color: #795548;
-  font-size: 125%;
-  font-weight: 400;
-  margin: 20px 0;
-  padding-left: 1.5rem;
-}
-
-blockquote * {
-  font-size: inherit;
-  line-height: inherit;
+p em {
+  color: #3498db;
+  font-weight: bold;
 }
 
 .text-center {
   text-align: center;
 }
-
-/* main nav */
 
 nav {
   background: white;
