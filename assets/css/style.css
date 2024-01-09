@@ -131,12 +131,6 @@ nav {
   height: 0;
 }
 
-/* nav {
-  background: rgb(149, 126, 212);
-  box-shadow: none;
-  height: 0;
-} */
-
 nav i {
   padding: 0 15px;
   position: relative;
@@ -144,23 +138,8 @@ nav i {
 }
 
 main {
-  background: url(../../assets/img/bg.png) repeat;
+  background: url(../../assets/img/bg.png) repeat; /* background like graph */
   padding-left: 190px;
-}
-
-dl {
-  margin-top: 0.5rem;
-}
-
-dd {
-  display: inline-block;
-  font-weight: 500;
-  margin-left: 0;
-}
-
-dt {
-  display: inline-block;
-  margin-left: 0.5rem;
 }
 
 ul.side-nav {
@@ -360,9 +339,9 @@ h3 {
   font-size: 24px;
 }
 
-.card .card-content .card-title {
+/* .card .card-content .card-title {
   line-height: 2.5rem;
-}
+} */
 
 .card i.right {
   margin-left: 10px;
