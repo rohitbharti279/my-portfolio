@@ -305,6 +305,7 @@ h3 {
 #experience .card-action {
   background-color: rgba(0, 0, 0, 0.02);
   border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 #experience .card .col.s12.m2 a {
@@ -403,6 +404,20 @@ a.hoverline:hover {
 
 .card-action a.btn-floating {
   margin-bottom: 0;
+}
+
+.add-ppt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ppt-icon {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ppt-icon:hover {
+  transform: scale(1.15);
 }
 
 #contact a:not(.btn-floating) {
