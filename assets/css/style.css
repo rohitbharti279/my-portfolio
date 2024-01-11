@@ -308,6 +308,10 @@ h3 {
   height: 250px;
 }
 
+.card-content {
+  text-align: center;
+}
+
 #experience .card-action {
   background-color: rgba(0, 0, 0, 0.02);
   border: none;
