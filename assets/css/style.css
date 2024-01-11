@@ -304,6 +304,10 @@ h3 {
   text-transform: uppercase;
 }
 
+.mobile-img {
+  height: 250px;
+}
+
 #experience .card-action {
   background-color: rgba(0, 0, 0, 0.02);
   border: none;
@@ -386,18 +390,6 @@ a.hoverline:hover {
 #experience .card-content .row {
   border-bottom: 1px solid #ddd;
   padding-bottom: 10px;
-}
-
-.card.large .card-image {
-  height: 230px;
-}
-
-.card.large .card-content {
-  height: auto;
-}
-
-.card.medium .card-image {
-  height: 240px;
 }
 
 .card-action a.btn-floating {
@@ -613,5 +605,9 @@ small {
 
   .contactme {
     font-size: 23px;
+  }
+
+  .mobile-img {
+    height: auto;
   }
 }
