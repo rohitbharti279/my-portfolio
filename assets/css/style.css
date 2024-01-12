@@ -265,6 +265,11 @@ h3 {
   margin-bottom: 60px;
 }
 
+.card:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
 .card .role {
   font-size: 1.25rem;
   position: absolute;
