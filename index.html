@@ -37,7 +37,7 @@
             class="brand-logo grey-blue-text"
           >
             <img
-              src="/assets/img/passport-new.jpg"
+              src="/assets/img/photos/passport-new.jpg"
               class="circle img-responsive profile-pic"
               alt="avatar"
             />
@@ -198,7 +198,7 @@
     <!-- Main Content-->
     <main>
       <!-- Heading lines -->
-      <section id="intro" class="section   full-height">
+      <section id="intro" class="section scrollspy full-height">
         <div class="overlay"></div>
         <div class="container">
           <div class="col-md-9">
@@ -249,7 +249,7 @@
       </section>
 
       <!-- Second Section: About -->
-      <section id="about" class="section  ">
+      <section id="about" class="section  scrollspy">
         <h3 class="page-title white-text teal">About</h3>
         <div class="container flow-text">
           <p>
@@ -281,7 +281,7 @@
       </section>
 
       <!-- Third Section: Experience -->
-      <section id="experience" class="section  ">
+      <section id="experience" class="section scrollspy">
         <h3 class="page-title white-text teal">Experience</h3>
         <div class="container">
           <!-- Experience 1 -->
@@ -504,7 +504,7 @@
       </section>
 
       <!-- Fourth Section: Projects -->
-      <section id="projects" class="section  ">
+      <section id="projects" class="section scrollspy">
         <h3 class="page-title white-text teal">Projects</h3>
         <div class="container">
           <div class="row">
@@ -1110,7 +1110,7 @@
       </section>
 
       <!-- Fifth Section: Skills -->
-      <section id="skills" class="section  ">
+      <section id="skills" class="section scrollspy">
         <h3 class="page-title white-text teal">Skills</h3>
         <div class="container">
           <!-- Languages -->
@@ -1331,7 +1331,7 @@
       </section>
 
       <!-- Seventh Section: Education -->
-      <section id="education" class="section  ">
+      <section id="education" class="section scrollspy">
         <h3 class="page-title white-text teal">Education</h3>
         <div class="container">
             <!-- Education -->
@@ -1448,7 +1448,7 @@
       </section>
 
       <!-- Eight Section: Contact -->
-      <section id="contact" class="section   full-height">
+      <section id="contact" class="section scrollspy full-height">
         <h3 class="page-title white-text teal">Contact</h3>
         <div class="container">
           <p>
@@ -1541,11 +1541,11 @@
     <script>
       // Materialize - Initializers
       $(document).ready(function () {
-        $(". "). ();
+        $(".scrollspy").scrollSpy();
         // Initialize collapse button
         $(".button-collapse").sideNav({
-          menuWidth: 190, // Default is 240
-          edge: "left", // Choose the horizontal origin
+          menuWidth: 190,
+          edge: "left",
           closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
         });
       });
