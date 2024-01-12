@@ -15,6 +15,8 @@
       rel="stylesheet"
       href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
     />
+    <!-- Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <!-- Custom Styles-->
     <link rel="stylesheet" href="/assets/css/style.css" />
     <title>My_Portfolio</title>
@@ -99,12 +101,14 @@
           >
         </li>
 
-        <li class="bold">
+        <li class="bold ">
           <a
             aria-label="Open Rohit's resume in a new tab"
             href="assets/resume/Rohit_Bharti_Resume.pdf"
             target="_blank"
-            class="waves-effect waves-dark teal-text"
+            data-position="top"
+              data-tooltip="Tap to access Resume"
+            class="waves-effect waves-dark teal-text tooltipped"
             ><i class="mdi-file-folder-open small"></i><span>Resume</span></a
           >
         </li>
@@ -1297,7 +1301,7 @@
             </div>
           </div>
 
-          <!-- certifications -->
+          <!-- Sixth certifications -->
           <div class="card">
             <div class="card-content">
               <h4 class="brown-text light">Certificates</h4>
@@ -1348,7 +1352,11 @@
                       ></span
                     >
                   </p>
-                  <p class="brown-text">Shibpur, Howrah, India</p>
+                 <p class="brown-text">
+                    <i class="bi bi-geo-alt" style="color: rgb(248, 84, 2);"></i>
+                    <span>Shibpur, Howrah, India</span>
+                </p>
+                
                   <p>
                     <b>Degree: </b>
                     Bachelor of Technology in Computer Science and Technology
@@ -1385,7 +1393,8 @@
                       ></span
                     >
                   </p>
-                  <p class="brown-text">DANAPUR, PATNA, India</p>
+                  <p class="brown-text"><i class="bi bi-geo-alt" style="color: rgb(248, 84, 2);"></i>
+                    <span>DANAPUR, PATNA, India</span></p>
                   <p>
                     <b>Degree: </b>Higher Secondary Certificate
                     <br />
@@ -1421,7 +1430,8 @@
                       ></span
                     >
                   </p>
-                  <p class="brown-text">DANAPUR, PATNA, India</p>
+                  <p class="brown-text"><i class="bi bi-geo-alt" style="color: rgb(248, 84, 2);"></i>
+                    <span>DANAPUR, PATNA, India</span></p>
                   <p>
                     <b>Degree: </b>Senior Secondary School
                     <br />
