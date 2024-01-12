@@ -619,4 +619,8 @@ small {
   .mobile-img {
     height: auto;
   }
+
+  .contact-details {
+    text-align: center;
+  }
 }
